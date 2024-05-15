@@ -46,8 +46,10 @@ body {
 
 
 .card {
+    width: 540px;
+    height: 332px;
     background-color: var(--Dark-Grayish-Blue);
-    padding: 48px 48px 72px;
+    /* padding: 48px 48px 72px; */
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -140,7 +142,9 @@ body {
     }
 
     .card {
-        padding: 40px 24px 64px;
+        width: 343px;
+        height: 315px;
+        /* padding: 40px 24px 64px; */
         border-radius: 10px;
         display: flex;
         flex-direction: column;
